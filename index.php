@@ -21,7 +21,12 @@
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
             <div class="bd-placeholder-img card-img-top" width="100%" height="225">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/cheeseburger.jpg" alt="food_pic"/>
+              <?php if ( has_post_thumbnail() ):
+                 the_post_thumbnail('small_thumbnail'); 
+                 else: 
+             ?>
+                <img src="<?php bloginfo('template_directory'); ?>/img/no-pic.jpg"/>
+            <?php endif; ?>
             </div>
             
             <div class="card-body">
