@@ -22,15 +22,44 @@
     }
   }
 
-body{
+*{
     direction: rtl;
 }
+
+footer{
+  text-align: center;
+
+}
+
+.card-body
+{
+  text-align: right;
+}
+
+.post-title
+{
+  color: black;
+  text-decoration: none;
+}
+.post-title:hover
+{
+  color: rgb(61, 61, 61);
+  text-decoration: none;
+}
+.post-title:active
+{
+  color: black;
+  text-decoration: none;
+}
+
 
 .jumbotron {
 padding-top: 3rem;
 padding-bottom: 3rem;
 margin-bottom: 0;
-background-color: #fff;
+background-image: url("img/Website-cover-2.jpg");
+background-color: rgba(255, 255, 255, 100);
+
 }
 @media (min-width: 768px) {
 .jumbotron {
@@ -58,4 +87,8 @@ padding-bottom: 3rem;
 
 footer p {
 margin-bottom: .25rem;
+}
+
+img{
+  width: 100%;
 }
