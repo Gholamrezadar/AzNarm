@@ -26,7 +26,9 @@
             
             <div class="card-body">
             <h3><a href="<?php the_permalink(); ?>" class="post-title"><?php the_title(); ?></a></h3>
-              <p class="card-text"> متن چرت و پرت متن چرت و پرت متن چرت و پرت متن چرت و پرت متن چرت و پرت متن چرت و پرت متن چرت و پرت متن چرت و پرت متن چرت و پرت</p>
+              <p class="card-text">
+              <?php the_excerpt(); ?>
+             </p>
             </div>
           </div>
         </div>
