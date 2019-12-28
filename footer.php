@@ -8,6 +8,14 @@
         <li><a class="text-muted" href="#">شرایط و ضوابط</a></li>
       </ul>
     </div>
+
+    <div class="col-6 col-md">
+      <?php dynamic_sidebar('footer2') ?>
+    </div>
+
+    <div class="col-6 col-md">
+        <?php dynamic_sidebar('footer1') ?>
+    </div>
     
   </div>
 </footer>
