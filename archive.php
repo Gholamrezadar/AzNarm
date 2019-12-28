@@ -3,13 +3,7 @@
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1><?php bloginfo('description'); ?></h1>
-      <p class="lead text-muted">
-      در این بلاگ میتوانید طرز تهیه فست فودهای مورد علاقه خود را پیدا کنید و آشپز خود باشید 
-      </p>
-      <p>
-        <a href="#" class="btn btn-primary my-2">درخواست آموزش</a>
-      </p>
+      <h1>آرشیو</h1>
     </div>
   </section>
 

@@ -4,8 +4,8 @@
       <h5>درباره ما</h5>
       <ul class="list-unstyled text-small">
         <li><a class="text-muted" href="#">تیم ما</a></li>
-        <li><a class="text-muted" href="#">آدرس</a></li>
-        <li><a class="text-muted" href="#">شرایط و ضوابط</a></li>
+        <li><a class="text-muted" href="http://ghd/az/wordpress/tag/pizza">تگ پیتزا</a></li>
+        <li><a class="text-muted" href="http://ghd/az/wordpress/2019">آرشیو 2019</a></li>
       </ul>
     </div>
 
