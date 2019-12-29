@@ -57,7 +57,7 @@ footer{
 {
   text-align: right;
   font-size: 1.5rem;
-  margin-top:12px
+  margin-top:12px;
 }
 
 
@@ -74,6 +74,22 @@ background-color: rgba(255, 255, 255, 100);
 padding-top: 6rem;
 padding-bottom: 6rem;
 }
+}
+
+.wpcf7-form input{
+  border:1px solid #e1e1e1;
+}
+.wpcf7-form textarea{
+  border:1px solid #e1e1e1;
+}
+
+.wpcf7-submit{
+  border:1px solid #e1e1e1;
+  padding:8px 40px;
+}
+
+.wpcf7-form{
+  text-align: center;
 }
 
 .jumbotron p:last-child {

@@ -10,7 +10,8 @@
   <div class="album py-5 bg-light">
     <div class="container">
 
-      <div class="row">
+      <div class="row justify-content-center">
+
       <?php the_post()?>
       <?php echo the_content()?>
     </div>
