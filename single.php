@@ -23,6 +23,11 @@
                 <?php the_content()?></div>
             <?php the_tags(" تگ ها :  ")?>
 
+            <?php
+            if (comments_open()){
+                //comments_template();
+            }
+            ?>
         </div>
     </div>
   </div>
