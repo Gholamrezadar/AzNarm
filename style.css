@@ -88,6 +88,12 @@ padding-bottom: 6rem;
   padding:8px 40px;
 }
 
+.post-details
+{
+  color: gray;
+  font-size: 17px;
+}
+
 .wpcf7-form{
   text-align: center;
 }

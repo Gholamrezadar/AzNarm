@@ -18,7 +18,9 @@
              ?>
                 <img src="<?php bloginfo('template_directory'); ?>/img/no-pic.jpg"/>
             <?php endif; ?>
-            <div class="post-content"><?php the_content()?></div>
+            <div class="post-content">
+                <p class="post-details"> نوشته شده توسط <?php the_author(); ?> در <?php the_date(); ?></p>
+                <?php the_content()?></div>
             <?php the_tags(" تگ ها :  ")?>
 
         </div>
